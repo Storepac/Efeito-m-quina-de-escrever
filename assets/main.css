@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(29, 29, 29);
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+p{
+  padding: 20px 0;
+}
+.center{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+}
+.center h1{
+  font-size: 3rem;
+}
+.center h1::after{
+  content: '|';
+  margin-left: 5px;
+  animation: piscar .7s infinite;
+}
+@keyframes piscar {
+  0%, 100%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .center h1{
+    font-size: 1.8rem;
+  }
+  .center p{
+    font-size: .8rem;
+  }
+}
