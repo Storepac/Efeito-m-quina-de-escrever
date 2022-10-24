@@ -28,6 +28,7 @@ p{
 }
 .center h1::after{
   content: '|';
+  color: #3f3;
   margin-left: 5px;
   animation: piscar .7s infinite;
 }
