@@ -1,2 +1,2 @@
-# Efeito-maquina-de-escrever
+# Efeito máquina de escrever
 Efeito de máquina de escrever utilizando o Javascript
