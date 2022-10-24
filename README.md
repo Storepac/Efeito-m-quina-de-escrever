@@ -1,2 +1,3 @@
 # Efeito máquina de escrever
-Efeito de máquina de escrever utilizando o Javascript
+Estudo de JavaScript
+Efeito simples de máquina de escrever utilizando o JavaScript;
